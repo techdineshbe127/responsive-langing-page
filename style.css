@@ -66,3 +66,26 @@ section:first-of-type button {
 section:first-of-type button:hover {
     background-color: #444;
 }
+.features {
+    background-color: #fff;
+    text-align: center;
+}
+
+.feature-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 30px;
+    flex-wrap: wrap;
+}
+
+.feature-card {
+    background-color: #f4f4f4;
+    padding: 20px;
+    width: 250px;
+    border-radius: 5px;
+}
+
+.feature-card h3 {
+    margin-bottom: 10px;
+}
