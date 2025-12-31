@@ -96,3 +96,33 @@ footer {
     padding: 20px;
     margin-top: 40px;
 }
+/* MOBILE FIRST: For devices smaller than 768px */
+@media (max-width: 768px) {
+    
+    nav ul {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .feature-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    section {
+        padding: 40px 20px;
+    }
+
+    section:first-of-type h2 {
+        font-size: 28px;
+    }
+
+    section:first-of-type p {
+        font-size: 16px;
+    }
+
+    section:first-of-type button {
+        width: 100%;
+        max-width: 200px;
+    }
+}
