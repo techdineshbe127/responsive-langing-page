@@ -35,3 +35,34 @@ nav a {
 nav a:hover {
     text-decoration: underline;
 }
+section {
+    padding: 60px 30px;
+}
+
+section:first-of-type {
+    background-color: #f4f4f4;
+    text-align: center;
+}
+
+section:first-of-type h2 {
+    font-size: 36px;
+    margin-bottom: 15px;
+}
+
+section:first-of-type p {
+    font-size: 18px;
+    margin-bottom: 25px;
+}
+
+section:first-of-type button {
+    padding: 12px 25px;
+    font-size: 16px;
+    background-color: #222;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+section:first-of-type button:hover {
+    background-color: #444;
+}
